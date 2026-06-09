@@ -1,0 +1,23 @@
+name: sunset_predictor
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+# 🟢 加上下面这三行环境声明
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+  dio: ^5.7.0
+  hive_flutter: ^1.1.0
+  flutter_riverpod: ^2.6.1
+  shimmer: ^3.0.0
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
